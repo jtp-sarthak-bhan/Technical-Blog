@@ -5,11 +5,11 @@ Dynamic Time Warping (DTW) is a method used to measure the similarity or distanc
 Let's understand this topic further.
 
 **Table of Contents**
-- [Difference between Dynamic Time Warping distance and Euclidean distance](Difference between Dynamic Time Warping distance and Euclidean distance)
-- [Understanding the concept](Understanding the concept)
-- [Applications of DTW])(Applications of DTW)
-- [DTW Algorithm](DTW Algorithm)
-- [Use Cases](Use Cases)
+- [Difference between Dynamic Time Warping distance and Euclidean distance](#difference-between-dynamic-time-warping-distance-and-euclidean-distance)
+- [Understanding the concept](#understanding-the-concept)
+- [Applications of DTW])(#applications-of-dtw)
+- [DTW Algorithm](#DTW-algorithm)
+- [Use Cases](#Use-Cases)
 
 ### Difference between Dynamic Time Warping distance and Euclidean distance
 <hr>
