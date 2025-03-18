@@ -80,10 +80,11 @@ Now they can be plotted like this:
 
 ![image](https://github.com/user-attachments/assets/2df7597e-0692-40ac-a14f-9c094393d32a)
 
-Where a new cell is calculated from the computation of previous computations.\
+Where a new cell is calculated from the computation of previous computations.
+
 $$DTW_{q(x,x')} = min(\sum_{(i,j)\in \pi}^{}D(x_{i}, x'_{i})^q)^\frac{1}{q}$$
 
-K is a set of indexed pairs of x and x'. π is a set of sequences of indexes of K. or, a more simple form of this equation can be written as:\
+K is a set of indexed pairs of x and x'. π is a set of sequences of indexes of K. or, a more simple form of this equation can be written as:
 
 $$DTW_{q(x,x')} = |A_{i}-B_{j}| + min(D[i-1,j-1], D[i-1,j], D[i,j-1])$$
 
