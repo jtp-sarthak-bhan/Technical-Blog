@@ -80,14 +80,12 @@ Now they can be plotted like this:
 
 ![image](https://github.com/user-attachments/assets/2df7597e-0692-40ac-a14f-9c094393d32a)
 
-Where a new cell is calculated from the computation of previous computations.
+Where a new cell is calculated from the computation of previous computations.\
 $$DTW_{q(x,x')} = min(\sum_{(i,j)\in \pi}^{}D(x_{i}, x'_{i})^q)^\frac{1}{q}$$
 
-![image](https://github.com/user-attachments/assets/7f5a26e4-f285-4c53-96b2-ddc829cfcea4)
+K is a set of indexed pairs of x and x'. π is a set of sequences of indexes of K. or, a more simple form of this equation can be written as:\
 
-K is a set of indexed pairs of x and x'. π is a set of sequences of indexes of K. or, a more simple form of this equation can be written as:
-
-![image](https://github.com/user-attachments/assets/db0b1489-5aec-47bc-9b02-414d2925f9a3)
+$$DTW_{q(x,x')} = |A_{i}-B_{j}| + min(D[i-1,j-1], D[i-1,j], D[i,j-1])$$
 
 Where A and B represent TS-A and TS-B respectively. i and j belong to π. 
 For cell (0,0), the formula gives, D(0,0) = |1–1|. Hence (0,0) is 0. Similarly for cell (4,4), the formula gives, D(4,4) = |9–3| + min(D(3,3), D(3,4), D(4,3)). Therefore, D(4,4) = 11, and soo on for other cells.
