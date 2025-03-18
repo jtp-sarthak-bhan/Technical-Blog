@@ -11,14 +11,14 @@ Let's understand this topic further.
 - [DTW Algorithm](#DTW-algorithm)
 - [Use Cases](#Use-Cases)
 
-### Difference between Dynamic Time Warping distance and Euclidean distance
+## Difference between Dynamic Time Warping distance and Euclidean distance
 <hr>
 
 The key distinction between Dynamic Time Warping distance and Euclidean distance lies in their approach to comparison. DTW facilitates many-to-one comparisons, allowing for the optimal alignment of time sequences by accommodating temporal distortions. In contrast, Euclidean distance performs a one-to-one point comparison, making it less suitable for time-series data with varying lengths or misalignments. This flexibility in handling temporal variations makes DTW particularly effective for comparing sequences of different lengths. Originally developed for automatic speech recognition, DTW remains widely used in areas involving sequential data analysis.
 
 ![image](https://github.com/user-attachments/assets/d9ed9f98-f3ef-4ef0-a90e-c919aa4bceb0)
 
-### Understanding the concept
+## Understanding the concept
 <hr>
 
 **Dynamic Time Warping** is an algorithm used for measuring the similarity between two temporal time series sequences. They can have variable speeds. It computes the distance from the matching similar elements between two series. It is used in dynamic programming to find the optimal path.
@@ -63,7 +63,7 @@ DTW is also applied in computer vision for comparing shapes, handwriting, and ob
 
 By adapting to variations in time-dependent data, DTW remains a fundamental tool in pattern recognition, classification, and predictive modeling across diverse industries.
 
-### DTW Algorithm
+## DTW Algorithm
 <hr>
 
 This is what it looks like when you start doing it on paper.
@@ -103,7 +103,7 @@ For example, if the algorithm starts at 𝐷(10,10)=15, it checks the three adja
 
 The resulting path provides the optimal alignment between the two sequences, ensuring the lowest cumulative cost for their warping. This approach is fundamental in applications such as speech recognition, time-series classification, and gesture recognition.
 
-### Use Cases
+## Use Cases
 <hr>
 
 Before delving into the detailed mechanics of DTW, it is essential to understand its significance and real-world applications. DTW serves as a fundamental tool in various domains where time-series alignment is critical. Some notable applications include:
