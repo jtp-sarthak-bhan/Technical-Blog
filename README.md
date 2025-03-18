@@ -7,7 +7,7 @@ Let's understand this topic further.
 **Table of Contents**
 - [Difference between Dynamic Time Warping distance and Euclidean distance](#difference-between-dynamic-time-warping-distance-and-euclidean-distance)
 - [Understanding the concept](#understanding-the-concept)
-- [Applications of DTW])(#applications-of-dtw)
+- [Applications of DTW](#applications-of-dtw)
 - [DTW Algorithm](#DTW-algorithm)
 - [Use Cases](#Use-Cases)
 
