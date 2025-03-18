@@ -115,6 +115,6 @@ These applications demonstrate the versatility of DTW in handling time-dependent
 
 And that is it! I hope this was useful and knowledgeable for you and hopefully it makes you understanding about how certain functions and operations are done clearer.
 
-Author:
-Sarthak Bhan
+Author:\
+Sarthak Bhan\
 JTP Co., Ltd.
