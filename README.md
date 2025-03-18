@@ -15,8 +15,8 @@ Let's understand this topic further.
 <hr>
 
 The key distinction between Dynamic Time Warping distance and Euclidean distance lies in their approach to comparison. DTW facilitates many-to-one comparisons, allowing for the optimal alignment of time sequences by accommodating temporal distortions. In contrast, Euclidean distance performs a one-to-one point comparison, making it less suitable for time-series data with varying lengths or misalignments. This flexibility in handling temporal variations makes DTW particularly effective for comparing sequences of different lengths. Originally developed for automatic speech recognition, DTW remains widely used in areas involving sequential data analysis.
-![image](https://github.com/user-attachments/assets/d9ed9f98-f3ef-4ef0-a90e-c919aa4bceb0)
 
+![image](https://github.com/user-attachments/assets/d9ed9f98-f3ef-4ef0-a90e-c919aa4bceb0)
 
 ### Understanding the concept
 <hr>
