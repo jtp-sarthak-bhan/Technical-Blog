@@ -23,7 +23,7 @@ The key distinction between Dynamic Time Warping distance and Euclidean distance
 
 **Dynamic Time Warping** is an algorithm used for measuring the similarity between two temporal time series sequences. They can have variable speeds. It computes the distance from the matching similar elements between two series. It is used in dynamic programming to find the optimal path.
 
-### Applications of DTW
+## Applications of DTW
 <hr>
 
 Dynamic Time Warping has a wide range of applications across multiple domains, including speech processing, bioinformatics, finance, and computer vision. Below are some key applications with real-world examples:
